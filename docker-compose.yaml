@@ -1,0 +1,12 @@
+services:
+  verandb:
+    build: https://github.com/JassemDev/MyProject_LF.9.git
+    image: verandb
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      - verandb_data:/app
+
+volumes:
+  verandb_data:
