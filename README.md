@@ -87,7 +87,7 @@ sudo apt-get install docker.io docker-compose
 Klonen Sie das Git-Repository mit der Web-App:
 
 ```
-git clone <Repository-URL>
+git clone https://github.com/JassemDev/MyProject_LF.9.git
 ```
 
 Navigieren Sie in das Verzeichnis:
@@ -123,6 +123,8 @@ Committen von Änderungen:
 
 ```
 git add .
+```
+```
 git commit -m "Commit-Nachricht"
 ```
 
