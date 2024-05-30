@@ -22,7 +22,7 @@ static domain_name_servers=5000
 ---
 
 # Benutzer erstellen
-Erstellen Sie den Benutzer "willi" ohne Administratorrechte:
+# Erstellen Sie den Benutzer "willi" ohne Administratorrechte:
 
 ```
 sudo adduser willi
@@ -32,6 +32,8 @@ Erstellen Sie den Benutzer "fernzugriff" mit sudo-Rechten:
 
 ```
 sudo adduser fernzugriff
+```
+```
 sudo usermod -aG sudo fernzugriff
 ```
 
