@@ -1,6 +1,6 @@
 ## MyProject_LF.9
 
-###Einrichtung des Linux-Servers
+## Einrichtung des Linux-Servers
 ---
 
 # Netzwerkkonfiguration
@@ -38,7 +38,7 @@ sudo usermod -aG sudo fernzugriff
 ---
 
 # SSH-Dienst einrichten
-Installiere den SSH-Server:
+Installieren Sie den SSH-Server:
 
 ```bash
 sudo apt-get update
@@ -81,7 +81,7 @@ git clone <Repository-URL>
 Navigieren Sie in das Verzeichnis:
 
 ```bash
-cd ToDoList_ifa22
+cd MyProject_LF.9
 ```
 
 Starten Sie die Web-App mit Docker Compose:
