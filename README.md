@@ -15,9 +15,12 @@ Fügen Sie folgende Zeilen am Ende der Datei hinzu, um eine statische IP-Adresse
 ```
 interface eth0
 ```
+```
 static ip_address=192.168.24.132
 ```
+```
 static routers=192.168.1.1
+```
 ```
 static domain_name_servers=5000
 ```
@@ -25,7 +28,7 @@ static domain_name_servers=5000
 ---
 
 # Benutzer erstellen
-## Erstellen Sie den Benutzer "willi" ohne Administratorrechte:
+ Erstellen Sie den Benutzer "willi" ohne Administratorrechte:
 
 ```
 sudo adduser willi
@@ -47,6 +50,8 @@ Installieren Sie den SSH-Server:
 
 ```
 sudo apt-get update
+```
+```
 sudo apt-get install openssh-server
 ```
 
@@ -71,6 +76,8 @@ Installieren Sie Docker und Docker Compose:
 
 ```
 sudo apt-get update
+```
+```
 sudo apt-get install docker.io docker-compose
 ```
 
