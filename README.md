@@ -14,14 +14,8 @@ Fügen Sie folgende Zeilen am Ende der Datei hinzu, um eine statische IP-Adresse
 
 ```
 interface eth0
-```
-```
 static ip_address=192.168.24.132
-```
-```
 static routers=192.168.1.1
-```
-```
 static domain_name_servers=5000
 ```
 
